@@ -99,7 +99,7 @@ Live Application Updated
 
 ---
 
-![CI-CD-Diagram](CI-CD.png)
+![CI-CD](Screenshots/CI-CD.png)
 ## Prerequisites
 
 ### GitHub
@@ -196,7 +196,7 @@ npm test
 > If tests fail → pipeline stops
 > If tests pass → Job 2 runs
 ### Console Output
-![Job1-console-output](<untitled folder 2/job1-console-output.png>)
+![job1-console-output](Screenshots/job1-console-output.png)
 
 ---
 
@@ -287,7 +287,7 @@ origin
 * Apply
 
 ### Console Output
-![Job2-console-output](<untitled folder 2/job2-console-output.png>)
+![job2-console-output](Screenshots/job2-console-output.png)
 ## STEP 5 – Job 3: CD Deploy
 
 ### Job Name
@@ -382,7 +382,7 @@ EOF
 
 
 ### Console Output
-![Job3-console-output](<untitled folder 2/job3-console-output.png>)
+![job3-console-output](Screenshots/job3-console-output.png)
 
 ---
 
@@ -403,7 +403,7 @@ git push origin dev
 4. Wait for 1-2 minutes
 5. Confirm change appears live
 
-![1st-change-frontpage](<untitled folder 2/1stchange-frontpage-app.png>)
+![1st-change-frontpage](Screenshots/1stchange-frontpage-app.png)
 
 
 ---
@@ -417,7 +417,7 @@ git commit -am "2nd change to frontpage"
 git push origin dev
 ```
 
-![2nd-change-frontpage](<untitled folder 2/2ndchange-frontpage-app.png>)
+![2nd-change-frontpage](Screenshots/2ndchange-frontpage-app.png)
 
 ---
 
